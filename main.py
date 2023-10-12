@@ -7,7 +7,7 @@ usuario = input("ingresa tú usuario :")
 contraseña = input("ingresa tú contraseña : ")
 
 matias = Empleado("Matias","20.588.550-1", "2000-10-04", usuario , contraseña)
-matias.inicio_secion()
+matias.inicio_sesion()
 
 supermercado = Bodega(120 , "calle Videla" , "Luis Gonzales")
 print(f"la capacidad de productos :{supermercado.capacidad},queda : {supermercado.direccion},el jefe es :{supermercado.jefe_cargo}")
@@ -20,4 +20,4 @@ if opcion == "si":
     bebida.contador_bodega()
     bebida.calcular_precios()
 else:
-    print("cerraste secion")
+    print("cerraste sesion")
