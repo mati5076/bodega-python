@@ -6,8 +6,8 @@ class Empleado:
         self.usuario = usuario
         self.contraseña = contraseña
 
-    def inicio_secion(self):
+    def inicio_sesion(self):
         if self.usuario == "matias" and self.contraseña == "1234":
-            print("Se inicio secion correctamente")
+            print("Se inicio sesion correctamente")
         else:
             print("esta mal el usuario o contraseña")
