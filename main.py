@@ -1,7 +1,8 @@
 from login.empleado import Empleado
 from login.producto import Producto
 from login.bodega import Bodega
-#permite al usuario ingresar con una cuenta para poder calcular precios y poder ver cuabnto stock de producto tien
+#permite al usuario ingresar con una cuenta para poder calcular precios y poder ver cuabnto stock de producto tiene
+#el usuario es = matias y la contraseña = 1234
 usuario = input("ingresa tú usuario :")
 contraseña = input("ingresa tú contraseña : ")
 
